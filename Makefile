@@ -29,7 +29,7 @@ else
 endif
 
 #définition des fichiers et dossiers
-PROGNAME = GLSLExample
+PROGNAME = faceSmileys
 PACKAGE=$(PROGNAME)
 VERSION = 06.1
 distdir = $(PACKAGE)-$(VERSION)

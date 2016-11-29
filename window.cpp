@@ -15,6 +15,9 @@
 using namespace cv;
 using namespace std;
 
+// Variables globales
+Mat smiley;
+
 int main(int argc, char ** argv) {
   CascadeClassifier * face_cc = NULL;
   VideoCapture * cap = new VideoCapture(0);
